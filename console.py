@@ -16,14 +16,14 @@ class HBNBCommand(cmd.Cmd):
     """Defines the HolbertonBnB command interpreter."""
 
     prompt = "(hbnb) "
-    __classes = {
-        "BaseModel",
-        "User",
-        "State",
-        "City",
-        "Amenity",
-        "Place",
-        "Review"
+    classes = {
+        "BaseModel":BaseModel,
+        "User":User,
+        "State":State,
+        "City":City,
+        "Amenity":Amenity,
+        "Place":Place,
+        "Review":Review
     }
 
     def emptyline(self):
