@@ -16,7 +16,7 @@ class HBNBCommand(cmd.Cmd):
     """Defines the HolbertonBnB command interpreter."""
 
     prompt = "(hbnb) "
-    classes = {
+    __classes = {
         "BaseModel":BaseModel,
         "User":User,
         "State":State,
