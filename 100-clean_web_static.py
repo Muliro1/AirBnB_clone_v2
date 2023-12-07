@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Deletes out-of-date archives
+Deletes outdated archives
 fab -f 100-clean_web_static.py do_clean:number=2
     -i ssh-key -u ubuntu > /dev/null 2>&1
 """
