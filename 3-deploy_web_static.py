@@ -50,9 +50,7 @@ def do_deploy(archive_path):
 
 def deploy():
     """creates and distributes an archive to the web servers"""
-    print("Executing task 'deploy'")
     archive_path = do_pack()
     if archive_path is None:
         return False
-    print("New version deployed!")
     return do_deploy(archive_path)
