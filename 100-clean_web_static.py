@@ -5,6 +5,7 @@ from fabric.api import task, local, env, put, run, runs_once
 from datetime import datetime
 import os
 
+env.user = 'ubuntu'
 env.hosts = ['54.157.188.26', '54.175.132.69']
 
 
